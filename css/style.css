@@ -1,0 +1,92 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: 'reformagroteskdemic';
+    src: url('./../fonts/Reformagroteskdemic.otf') format('opentype'), 
+         url('./../fonts/reformagroteskdemic-webfont.woff') format("woff");
+}
+
+.first-container {
+    background-image: url(./..//img/background_first.jpg);
+    width: 1850px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+}
+
+.navigation {
+    margin-top: 40px;
+    margin-left: 312px;
+    margin-right: 725px;
+    font-family: 'reformagroteskdemic', sans-serif;
+    line-height: 120%;
+    font-size: 24px;
+    letter-spacing: 3%;
+}
+
+.navigation a {
+    color: #fff;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation li {
+    padding-left: 40px;
+}
+
+.logo {
+    margin-top: 42px;
+}
+
+.main-text {
+}
+
+.main-text__name {
+}
+
+.main-text__text {
+}
+
+.main-text__button {
+}
+
+.btn {
+}
+
+.social {
+}
+
+.social__socials {
+}
+
+.name-of-links {
+}
+
+.social__links {
+}
+
+.social__contacts {
+}
+
+.name-of-number {
+}
+
+.social__number {
+}
+
+.social__time {
+}
+
+.name-of-time {
+}
+
+.social__schedule {
+}
